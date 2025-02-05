@@ -4,7 +4,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/Body.css">
     <link rel="stylesheet" href="./assets/css/Reset.css">
-    <link rel="stylesheet" href="./assets/css/Comun.css">
+    <link rel="stylesheet" href="./assets/css/Comun.css"> 
 </head>
 <body>
     <main>
