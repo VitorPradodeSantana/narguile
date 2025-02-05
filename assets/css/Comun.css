@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.icone-header{
+    max-width: 36px;
+    max-height: 36px;
+}
