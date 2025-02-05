@@ -8,13 +8,17 @@
 </head>
 <body>
     <main>
-        <div
-            class="imagem-principal"
-        >
-            <img
-                src="./assets/img/narguiles-principal.jpg"
-                alt="imagem-narguile-principal"
-            >
+        <div>
+            <div class="imagem-principal">
+                <img
+                    src="./assets/img/narguiles-principal.jpg"
+                    alt="imagem-narguile-principal"
+                >
+            </div>
+            <div>
+                <button class="botao">Cadastrar</button>
+                <button class="botao">Relatórios</button>
+            </div>
         </div>
     </main>
 </body>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/Footer.css">
 </head>
 <body>
-    <footer>
+    <33>
         <p>Criado por &copy; Vitor Prado</p>
         <img
             class="icone-header"
