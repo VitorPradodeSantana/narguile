@@ -4,12 +4,16 @@ footer {
     text-transform: uppercase;
     text-align: center;
     padding: 8px 0;
+    width: 100%;
+}
+
+footer p {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-footer img {
-    margin-left: 4px;
+footer p > img {
+    margin-left: 8px;
 }
 

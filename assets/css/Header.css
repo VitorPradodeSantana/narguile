@@ -3,3 +3,47 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+
+.menu-toggle img{
+    cursor: pointer;
+}
+
+.nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #F5F5F5;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav ul li {
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+.nav ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-family: monospace;
+}
+
+.nav ul li:hover {
+    background: #F8F8FF;
+}
+
+.show {
+    display: flex;
+}

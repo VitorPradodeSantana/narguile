@@ -21,15 +21,30 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <div class="menu-toogle" id="menu-toggle">
                     <img 
                         src="./assets/img/hamburger.png"
                         alt="icone-hamburguer"
                         class="icone-header"
                     >
-                </a>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Cadastrar</a></li>
+                        <li><a href="#">Relatorio</a></li>
+                    </ul>
+                </nav>
             </li>
         </ul>
     </header>
 </body>
 </html>
+<script>
+    menuToggle = document.getElementById("menu-toggle");
+    nav = document.getElementById('nav');
+
+    menuToggle.addEventListener("click", () => {
+        nav.classList.toggle("show");
+    });
+</script>
