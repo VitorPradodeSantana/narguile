@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/Header.css">
-    <link rel="stylesheet" href="./assets/css/Reset.css">
-    <link rel="stylesheet" href="./assets/css/Comun.css">
+    <link rel="stylesheet" href="../assets/css/Header.css">
+    <link rel="stylesheet" href="../assets/css/Reset.css">
+    <link rel="stylesheet" href="../assets/css/Comun.css">
 </head>
 <body>
     <header class="container">
@@ -14,7 +14,7 @@
             <li>
                 <a href="index.php">
                     <img 
-                        src="./assets/img/narguile.png"
+                        src="../assets/img/narguile.png"
                         alt="icone-narguile-header"
                         class="icone-header"
                     >
@@ -23,7 +23,7 @@
             <li>
                 <div class="menu-toogle" id="menu-toggle">
                     <img 
-                        src="./assets/img/hamburger.png"
+                        src="../assets/img/hamburger.png"
                         alt="icone-hamburguer"
                         class="icone-header"
                     >

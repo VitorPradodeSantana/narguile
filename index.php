@@ -6,21 +6,46 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/Reset.css">
     <link rel="stylesheet" href="./assets/css/Comun.css">
+    <link rel="stylesheet" href="./assets/css/Login.css">
 </head>
 <body>
     <main class="container">
-        <div class="icone-header">
+        <div class="icone-login">
             <img 
                 src="./assets/img/narguile.png"
                 alt="icone-narguile"
+                class="logo_narquile"
             >
         </div>
-        <form action="" method="POST">
-            <label for="usuario">Usuario</label>    
-            <input type="text" name="usuario" minlength="3">
-            <label for="senha">Senha</label>
-            <input type="senha" minlength="3">
-            <input type="submit" value="entrar">
+        <form action="./pages/Login.php" method="POST" class="form_login">
+            <label
+                for="usuario"
+                class="lab_login"
+            >
+                Usuario
+            </label>    
+            <input
+                type="text"
+                name="usuario"
+                minlength="3"
+                class="input_login"
+            >
+            <label
+                for="senha"
+                class="lab_login"
+            >
+                Senha
+            </label>
+            <input 
+                type="senha" 
+                name="senha"
+                minlength="3" 
+                class="input_login"
+            >
+            <input
+                type="submit"
+                value="entrar"
+            >
         </form>
     </main>
 </body>
