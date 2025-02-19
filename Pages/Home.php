@@ -34,8 +34,8 @@
                     <p class="texto-usuario">Olá prazer, <?= $usuario['login']; ?></p>
                     
                     <div class="botoes-principal">
-                        <a href="Cadastrar.php" class="btn">Cadastrar</a>
-                        <a href="Relatorio.php" class="btn">Relatorio</a>
+                        <a href="Cadastrar.php" class="botao">Cadastrar</a>
+                        <a href="Relatorio.php" class="botao">Relatorio</a>
                     </div>
                 </div>
             </div>

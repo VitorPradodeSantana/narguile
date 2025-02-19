@@ -53,6 +53,7 @@
                 <input
                     type="submit"
                     value="entrar"
+                    class="botao"
                 >
             </form>
         </div>

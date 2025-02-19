@@ -8,7 +8,20 @@
     margin: 0 auto;
     border-collapse: collapse;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
+    height: 60vh;
+    max-width: 100%;
+}
+
+.tabela-relatorio tbody > tr > td {
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tabela-relatorio tbody > tr > td > a {
+    display: inline-block;
+    margin: 0 0px;
 }
 
 .tabela-relatorio thead tr td{
@@ -19,13 +32,8 @@
 
 .icone-relatorio {
     width: 20px;
-}
-
-.tabela-relatorio-botoes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4px 0px;
+    height: 20px;
+    cursor: pointer;
 }
 
 .tabela-relatorio tbody tr, td {
