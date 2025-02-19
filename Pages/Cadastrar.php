@@ -13,10 +13,10 @@
     ?>
     <main>
         <div class="botoes-cadastro">
-            <a href="" class="botao">
+            <a href="./CadUsuario.php" class="botao">
                 Cadastrar Usuário
             </a>
-            <a href="" class="botao">
+            <a href="./CadNarguile.php" class="botao">
                 Cadastrar Narguile
             </a>
         </div>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/Reset.css">
     <link rel="stylesheet" href="../assets/css/Comun.css">
     <link rel="stylesheet" href="../assets/css/Relatorio.css">
+    <link rel="stylesheet" href="./../assets/css/Cadastrar.css">
 </head>
 <body>
     <header class="container">
