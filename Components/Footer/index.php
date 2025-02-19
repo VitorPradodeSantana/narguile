@@ -13,7 +13,7 @@
             Criado por &copy; Vitor Prado
             <img
                 class="icone-header"
-                src="../assets/img/narguile.png"
+                src="http://localhost/narguile/assets/img/narguile.png"
                 alt="icone-narguile"
             >
         </p>

@@ -1,0 +1,33 @@
+#loom-companion-mv3 {
+    display: none;
+}
+
+.tabela-relatorio {
+    font-family: monospace;
+    text-transform: uppercase;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: none;
+    font-size: 18px;
+}
+
+.tabela-relatorio thead tr td{
+    background-color: #6495ED;
+    color: #fff;
+    padding: 4px;
+}
+
+.icone-relatorio {
+    width: 20px;
+}
+
+.tabela-relatorio-botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+}
+
+.tabela-relatorio tbody tr, td {
+    background-color: #ccdbf6;
+}
